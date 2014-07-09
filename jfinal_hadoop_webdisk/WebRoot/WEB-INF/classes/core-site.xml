@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<!-- Put site-specific property overrides in this file. -->
+
+<configuration>
+  <property>
+     <name>fs.default.name </name>
+     <value>hdfs://192.168.1.166:9000</value>
+  </property>
+<property>
+  <name>hadoop.native.lib</name>
+  <value>false</value>
+  <description>Should native hadoop libraries, if present, be used.</description>
+</property>
+
+</configuration>
